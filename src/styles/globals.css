@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rotate-x-180 {
+  transform: rotateX(180deg);
+}
+
+.strike-diagonal-1 {
+  d: path('M 5 5 L 95 95');
+}
+
+.strike-diagonal-2 {
+  d: path('M 95 5 L 5 95');
+}
+
+.strike-row-1 {
+  d: path('M 2 15 L 98 15');
+}
+
+.strike-row-2 {
+  d: path('M 2 50 L 98 50');
+}
+
+.strike-row-3 {
+  d: path('M 2 85 L 98 85');
+}
+
+.strike-col-1 {
+  d: path('M 15 2 L 15 98');
+}
+
+.strike-col-2 {
+  d: path('M 50 2 L 50 98');
+}
+.strike-col-3 {
+  d: path('M 85 2 L 85 98');
+}
+@layer components {
+  .custom-shadow {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  }
+}
