@@ -41,7 +41,7 @@ const Square: React.FC<SquareProps> = ({ value }) => {
 
   return (
     <div
-      className={`w-16 h-16 lg:w-20 sm:h-20  bg-gray-900 flex items-center justify-center text-white ${
+      className={`w-16 h-16 lg:w-20 lg:h-20  bg-gray-900 flex items-center justify-center text-white ${
         !!squares[value] || end ? 'hover:cursor-auto' : 'hover:cursor-pointer'
       }`}
       onClick={() => handlePlay(value)}
