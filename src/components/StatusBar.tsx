@@ -11,7 +11,7 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({ children, isNext }) => {
   return (
     <button
-      className={`flex items-center w-28 justify-between h-10  border-2 rounded-sm px-3 font-bold border-white border-b-4 ${
+      className={`flex items-center w-24 lg:w-28 justify-between h-10  border-2 rounded-sm px-3 font-bold border-white border-b-4 ${
         isNext && 'border-b-green-700'
       }`}
       type="button"

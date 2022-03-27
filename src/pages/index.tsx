@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="pt-8 pb-10 px-10 bg-gray-900 rounded-sm custom-shadow flex items-center justify-center flex-col z-[1]">
+      <main className="pt-8 pb-10 lg:px-10 px-4 bg-gray-900 rounded-sm custom-shadow flex items-center justify-center flex-col z-[1]">
         <h1 className="text-green-600 text-4xl mb-5 font-poppins font-black">
           Tic <span className="text-white">Tac</span> Toe
         </h1>

@@ -22,8 +22,7 @@ const Line: React.FC = () => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        className={strikeClasses}
-        stroke="#555"
+        className={`stroke-green-700 ${strikeClasses}`}
         strokeWidth="2"
         strokeLinecap="round"
         strokeDasharray="300"

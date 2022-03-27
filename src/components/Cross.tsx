@@ -13,7 +13,7 @@ const Cross: React.FC<CrossProps> = ({
   return (
     <svg
       viewBox="0 0 100 100"
-      className={`${sm ? 'w-4 h-4' : 'w-16 h-16'}`}
+      className={`${sm ? 'w-4 h-4' : 'lg:w-16 lg:h-16 w-12 h-12'}`}
       fill="none"
       stroke={stroke}
       xmlns="http://www.w3.org/2000/svg"
