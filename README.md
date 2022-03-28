@@ -19,9 +19,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [Typescript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
-  - [x] useReducer
   - [x] useState
   - [x] useEffect
+  - [x] useContext
+  - [x] useReducer
 
 ## Learn More
 
